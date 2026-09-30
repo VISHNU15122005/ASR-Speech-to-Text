@@ -1,0 +1,13 @@
+# Web interface
+streamlit>=1.30.0
+
+# ASR model (OpenAI Whisper, runs locally)
+openai-whisper
+
+# Deep-learning backend used by Whisper
+torch
+
+# Numerical computing (also a Whisper dependency)
+numpy
+
+# NOTE: FFmpeg is NOT a pip package. Install it separately (see README.md).
